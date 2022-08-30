@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <form action="/" method="POST">
+            Statymo Suma($)
+            <input type="text" minlength="1" name="bid"><br>
+            
+         <div class="search_select_box">
+                <label for="city">Pasirinkite Miestą:</label>
+                <select class="selectpicker" id="city" name="city" data-live-search="true">
+                <option value="ABILENE">ABILENE</option>
+                <option value="ADELANTO">ADELANTO</option>
+                <option value="ALBANY">ALBANY</option>
+                <option value="ALBUQUERQUE">ALBUQUERQUE</option>
+                <option value="ALTOONA">ALTOONA</option>
+                <option value="AMARILLO">AMARILLO</option>
+                <option value="ANCHORAGE">ANCHORAGE</option>
+                <option value="ANDREWS">ANDREWS</option>
+                <option value="ANTELOPE">ANTELOPE</option>
+                <option value="APPLETON">APPLETON</option>
+                <option value="ATLANTA">ATLANTA</option>
+                <option value="AUGUSTA">AUGUSTA</option>
+                <option value="AUSTIN">AUSTIN</option>
+                <option value="BAKERSFIELD">BAKERSFIELD</option>
+                <option value="BALTIMORE">BALTIMORE</option>
+                <option value="BATON_ROUGE">BATON_ROUGE</option>
+                <option value="BILLINGS">BILLINGS</option>
+                <option value="BIRMINGHAM">BIRMINGHAM</option>
+                <option value="BISMARCK">BISMARCK</option>
+                <option value="BOISE">BOISE</option>
+                <option value="BUFFALO">BUFFALO</option>
+                <option value="CANDIA">CANDIA</option>
+                <option value="CARTERSVILLE">CARTERSVILLE</option>
+                <option value="CASPER">CASPER</option>
+                <option value="CHAMBERSBURG">CHAMBERSBURG</option>
+                <option value="CHARLESTON_Hurricane">CHARLESTON_Hurricane</option>
+                <option value="CHICAGO">CHICAGO</option>
+                <option value="CHINA_GROVE">CHINA_GROVE</option>
+                <option value="CICERO">CICERO</option>
+                <option value="CLEVELAND">CLEVELAND</option>
+                <option value="COLORADO_SPRINGS">COLORADO_SPRINGS</option>
+                <option value="COLUMBIA_MO">COLUMBIA_MO</option>
+                <option value="COLUMBIA_SC">COLUMBIA_SC</option>
+                <option value="COLUMBUS">COLUMBUS</option>
+                <option value="CONCORD">CONCORD</option>
+                <option value="CORPUS_CHRISTI">CORPUS_CHRISTI</option>
+                <option value="CRASHEDTOYS_ATLANTA">CRASHEDTOYS_ATLANTA</option>
+                <option value="CRASHEDTOYS_DALLAS">CRASHEDTOYS_DALLAS</option>
+                <option value="CRASHEDTOYS_EAST_BETHEL">CRASHEDTOYS_EAST_BETHEL</option>
+                <option value="CRASHEDTOYS_ELDRIDGE">CRASHEDTOYS_ELDRIDGE</option>
+                <option value="CRASHEDTOYS_MINNEAPOLIS">CRASHEDTOYS_MINNEAPOLIS</option>
+                <option value="CRASHEDTOYS_SACRAMENTO">CRASHEDTOYS_SACRAMENTO</option>
+                <option value="DALLAS">DALLAS</option>
+                <option value="DANVILLE">DANVILLE</option>
+                <option value="DAVENPORT">DAVENPORT</option>
+                <option value="DAYTON">DAYTON</option>
+                <option value="DENVER">DENVER</option>
+                <option value="DES_MOINES">DES_MOINES</option>
+                <option value="DETROIT">DETROIT</option>
+                <option value="DOTHAN">DOTHAN</option>
+                <option value="DYER">DYER</option>
+                <option value="EARLINGTON">EARLINGTON</option>
+                <option value="EL_PASO">EL_PASO</option>
+                <option value="EUGENE">EUGENE</option>
+                <option value="EXETER">EXETER</option>
+                <option value="FAIRBURN">FAIRBURN</option>
+                <option value="FAYETTEVILLE">FAYETTEVILLE</option>
+                <option value="FLINT">FLINT</option>
+                <option value="FORT_WAYNE">FORT_WAYNE</option>
+                <option value="FREDERICKSBURG">FREDERICKSBURG</option>
+                <option value="FREETOWN">FREETOWN</option>
+                <option value="FRESNO">FRESNO</option>
+                <option value="FT._PIERCE">FT._PIERCE</option>
+                <option value="FT_WORTH">FT_WORTH</option>
+                <option value="GASTONIA">GASTONIA</option>
+                <option value="GLASSBORO">GLASSBORO</option>
+                <option value="GRAHAM">GRAHAM</option>
+                <option value="HAMMOND">HAMMOND</option>
+                <option value="HAMPTON">HAMPTON</option>
+                <option value="HARRISBURG">HARRISBURG</option>
+                <option value="HARTFORD">HARTFORD</option>
+                <option value="HARTFORD_SPRINGFIELD">HARTFORD_SPRINGFIELD</option>
+                <option value="HAYWARD_DESERT_VIEW">HAYWARD_DESERT_VIEW</option>
+                <option value="HAYWARD">HAYWARD</option>
+                <option value="HELENA">HELENA</option>
+                <option value="HONOLULU">HONOLULU</option>
+                <option value="HOUSTON">HOUSTON</option>
+                <option value="INDIANAPOLIS">INDIANAPOLIS</option>
+                <option value="IONIA">IONIA</option>
+                <option value="JACKSON">JACKSON</option>
+                <option value="JACKSONVILLE">JACKSONVILLE</option>
+                <option value="KANSAS_CITY">KANSAS_CITY</option>
+                <option value="KINCHELOE">KINCHELOE</option>
+                <option value="KNOXVILLE">KNOXVILLE</option>
+                <option value="LANSING">LANSING</option>
+                <option value="LAS_VEGAS">LAS_VEGAS</option>
+                <option value="LEXINGTON">LEXINGTON</option>
+                <option value="LINCOLN">LINCOLN</option>
+                <option value="LITTLE_ROCK">LITTLE_ROCK</option>
+                <option value="LONG_BEACH">LONG_BEACH</option>
+                <option value="LONG_ISLAND">LONG_ISLAND</option>
+                <option value="LONGVIEW">LONGVIEW</option>
+                <option value="LOS_ANGELES">LOS_ANGELES</option>
+                <option value="LOUISVILLE">LOUISVILLE</option>
+                <option value="LUFKIN">LUFKIN</option>
+                <option value="LUMBERTON">LUMBERTON</option>
+                <option value="LYMAN">LYMAN</option>
+                <option value="MACON">MACON</option>
+                <option value="MADISON">MADISON</option>
+                <option value="MARTINEZ">MARTINEZ</option>
+                <option value="MCALLEN">MCALLEN</option>
+                <option value="MEBANE">MEBANE</option>
+                <option value="MEMPHIS">MEMPHIS</option>
+                <option value="MIAMI">MIAMI</option>
+                <option value="MILWAUKEE">MILWAUKEE</option>
+                <option value="MINNEAPOLIS">MINNEAPOLIS</option>
+                <option value="MOBILE">MOBILE</option>
+                <option value="MOCKSVILLE">MOCKSVILLE</option>
+                <option value="MONTGOMERY">MONTGOMERY</option>
+                <option value="NASHVILLE">NASHVILLE</option>
+                <option value="NEW_ORLEANS">NEW_ORLEANS</option>
+                <option value="NEWBURGH/Marlbo">NEWBURGH/Marlbo</option>
+                <option value="NORTH_BOSTON">NORTH_BOSTON</option>
+                <option value="NORTH_CHARLESTON">NORTH_CHARLESTON</option>
+                <option value="NORTH_SEATTLE">NORTH_SEATTLE</option>
+                <option value="OCALA">OCALA</option>
+                <option value="OGDEN">OGDEN</option>
+                <option value="OKLAHOMA_CITY">OKLAHOMA_CITY</option>
+                <option value="ORLANDO">ORLANDO</option>
+                <option value="PASCO">PASCO</option>
+                <option value="PEORIA">PEORIA</option>
+                <option value="PHILADELPHIA">PHILADELPHIA</option>
+                <option value="PHOENIX">PHOENIX</option>
+                <option value="PITTSBURGH">PITTSBURGH</option>
+                <option value="PORTLAND">PORTLAND</option>
+                <option value="PUNTA_GORDA">PUNTA_GORDA</option>
+                <option value="RALEIGH">RALEIGH</option>
+                <option value="RANCHO_CUCAMONGA">RANCHO_CUCAMONGA</option>
+                <option value="REDDING">REDDING</option>
+                <option value="RENO">RENO</option>
+                <option value="RICHMOND">RICHMOND</option>
+                <option value="ROCHESTER">ROCHESTER</option>
+                <option value="SACRAMENTO">SACRAMENTO</option>
+                <option value="SALT_LAKE_CITY">SALT_LAKE_CITY</option>
+                <option value="SAN_ANTONIO">SAN_ANTONIO</option>
+                <option value="SAN_BERNARDINO">SAN_BERNARDINO</option>
+                <option value="SAN_DIEGO">SAN_DIEGO</option>
+                <option value="SAN_JOSE">SAN_JOSE</option>
+                <option value="SAVANNAH">SAVANNAH</option>
+                <option value="SCRANTON">SCRANTON</option>
+                <option value="SEAFORD">SEAFORD</option>
+                <option value="SHREVEPORT">SHREVEPORT</option>
+                <option value="SIKESTON">SIKESTON</option>
+                <option value="SACRAMENTO">SACRAMENTO</option>
+                <option value="SOMERVILLE">SOMERVILLE</option>
+                <option value="SOUTH_BOSTON">SOUTH_BOSTON</option>
+                <option value="SOUTHERN_ILLINOIS">SOUTHERN_ILLINOIS</option>
+                <option value="SPARTANBURG">SPARTANBURG</option>
+                <option value="SPOKANE">SPOKANE</option>
+                <option value="SPRINGFIELD">SPRINGFIELD</option>
+                <option value="ST_CLOUD">ST_CLOUD</option>
+                <option value="ST_LOUIS">ST_LOUIS</option>
+                <option value="SUN_VALLEY">SUN_VALLEY</option>
+                <option value="SYRACUSE">SYRACUSE</option>
+                <option value="TALLAHASSEE">TALLAHASSEE</option>
+                <option value="TAMPA_SOUTH">TAMPA_SOUTH</option>
+                <option value="TANNER">TANNER</option>
+                <option value="TIFTON">TIFTON</option>
+                <option value="TRENTON">TRENTON</option>
+                <option value="TUCSON">TUCSON</option>
+                <option value="TULSA">TULSA</option>
+                <option value="VALLEJO">VALLEJO</option>
+                <option value="VAN_NUYS">VAN_NUYS</option>
+                <option value="WACO">WACO</option>
+                <option value="WALTON">WALTON</option>
+                <option value="WASHINGTON">WASHINGTON</option>
+                <option value="WEST_PALM_BEACH">WEST_PALM_BEACH</option>
+                <option value="WEST_WARREN">WEST_WARREN</option>
+                <option value="WHEELING">WHEELING</option>
+                <option value="WICHITA">WICHITA</option>
+                <option value="YORK_HAVEN">YORK_HAVEN</option>
+              </select>
+            </div>
+            <button type="submit" value="submit">Skaičiuoti</button>
+        </form>
+        {%if bid%}
+        <p>Statymo Suma: {{bid}}$</p>
+        {%endif%}
+        {%if auct_fees%}
+        <p>Aukciono mokesčiai: {{auct_fees}}$</p>
+        {%endif%}
+        {%if dom_ship%}
+        <p>Vietinis pervežimas iš {{city}} + Konteineris: {{dom_ship}}$</p>
+        {%endif%}
+        {%if total%}
+        <p>Bendra Suma ($) kuria konvertuosime i EUR: {{total}}</p>
+        {%endif%}
+        {%if rate%}
+        <p>Šiandienos USD Kursas: {{rate}}</p>
+        {%endif%}
+
+        {%if eur%}
+        <p>Suma eurais pries mokesčius {{eur}}€</p>
+        {%endif%}
+
+        {%if import_fee%}
+        <p>Mokesčiai Lietuvoje(30%) {{import_fee}}€</p>
+        {%endif%}
+        {%if kotlet_fee%}
+        {%if krova_fee%}
+        <p>Klaipėdos Uosto krovos darbai: {{krova_fee}}€</p>
+        {%endif%}
+        <p>Tarpininkavimo mokestis: {{kotlet_fee}}€</p>
+        {%endif%}
+        {%if sub_total%}
+        <p>Bendra Suma EUR: <b>{{sub_total}}€</b></p>
+        {%endif%}
+
+        <script src="js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+    </body>
+</html>
